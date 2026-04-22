@@ -7,10 +7,16 @@
 请拖动下方的滑块，观察绿色物体通过透镜后，橙色像的变化规律。
 
 <script setup>
-import LensExperiment from './components/LensExperiment.vue'
+import Convex from './Convex.vue'
 </script>
 
-<LensExperiment />
+<Convex />
+
+## 来自 PhET 的在线实验
+
+[几何光学](./phet-geometric-optics.md)
+
+访问 [PhET 网站](https://phet.colorado.edu/) 查看所有在线仿真实验
 
 ---
 

@@ -1,12 +1,20 @@
 {
-  "dependencies": {},
+  "dependencies": {
+    "chokidar": "^5.0.0",
+    "fs-extra": "^11.3.4",
+    "glob": "^13.0.6"
+  },
   "devDependencies": {
+    "markdown-it-container": "^4.0.0",
     "markdown-it-mathjax3": "^4",
     "vitepress": "^2.0.0-alpha.17"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "tikz": "node scripts/build-tikz.js",
+    "tikz:watch": "node scripts/watch-tikz.js",
+    "dev": "concurrently \"bun:tikz:watch\" \"bun:docs:dev\""
   }
 }

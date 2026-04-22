@@ -15,3 +15,6 @@ Thumbs.db
 # IDEs
 .vscode/
 .idea/
+
+# TikZ build 目录
+docs/tikz/build/

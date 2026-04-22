@@ -1,0 +1,18 @@
+/* 确保变量作用于根节点 */
+:root {
+  /* 1. 修改品牌颜色 */
+  --vp-c-brand-1: #646cff;
+  --vp-c-brand-2: #747bff;
+  --vp-c-brand-3: #8a91ff;
+}
+
+.formula-card {
+  margin: 16px 0;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: var(--vp-c-bg-soft); /* 使用内置软背景色 */
+  border: 1px solid var(--vp-c-border);
+  border-left: 4px solid var(--vp-c-brand-1);
+  transition: border-color 0.25s;
+  overflow-x: auto; /* 防止长公式溢出 */
+}

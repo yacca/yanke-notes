@@ -12,5 +12,5 @@ hero:
       link: /math/rolling-square
     - theme: alt
       text: 物理
-      link: /physics/buoyancy-demo
+      link: /physics/pressure
 ---

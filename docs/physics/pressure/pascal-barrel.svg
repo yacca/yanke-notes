@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48.112823mm"
+   height="174.36404mm"
+   viewBox="0 0 48.112823 174.36404"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="0.25"
+       markerHeight="0.5"
+       viewBox="0 0 1 1"
+       preserveAspectRatio="none">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-80.943372,-41.382491)">
+    <path
+       id="rect1"
+       style="opacity:1;fill:#27a3fd;fill-opacity:0.4;stroke:#000000;stroke-width:0.529167;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+       d="M 103.86084,41.64707 V 165.32531 H 81.207963 v 50.15663 H 128.79162 V 165.32531 H 106.13926 V 41.64707 Z" />
+    <path
+       style="fill:#ff7f2a;fill-opacity:0.4;stroke:#e2451b;stroke-width:2.208;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle)"
+       d="m 97.023641,173.36229 v -5.1551"
+       id="path1" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#path1"
+       id="use1"
+       transform="translate(16.366785)" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#use1"
+       id="use2"
+       transform="matrix(1,0,0,-1,0,380.859)" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#use2"
+       id="use3"
+       transform="translate(-16.366785)" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#use3"
+       id="use4"
+       transform="rotate(90,104.94064,191.53022)" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#use4"
+       id="use5"
+       transform="matrix(-1,0,0,1,209.83282,0)" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#use4"
+       id="use6"
+       transform="translate(0,13.229169)" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#use5"
+       id="use7"
+       transform="translate(0,13.229169)" />
+  </g>
+</svg>
