@@ -22,7 +22,7 @@ export default defineConfig({
       {
         text: '物理',
         items: [
-          { text: '压力与压强', link: '/physics/pressure/' },
+          { text: '压强', link: '/physics/pressure/' },
           { text: '浮力', link: '/physics/buoyancy/' },
           { text: '透镜', link: '/physics/lens/' },
         ],
@@ -44,11 +44,18 @@ export default defineConfig({
       ],
       '/physics/': [
         {
-          text: '物理',
+          text: '初中物理',
           items: [
-            { text: '压力与压强', link: '/physics/pressure/' },
+            { text: '压强', link: '/physics/pressure/' },
             { text: '浮力', link: '/physics/buoyancy/' },
             { text: '透镜', link: '/physics/lens/' },
+          ],
+        },
+        {
+          text: 'PhET 仿真',
+          items: [
+            { text: '浮力', link: '/physics/buoyancy/phet-buoyancy' },
+            { text: '几何光学', link: '/physics/lens/phet-geometric-optics' },
           ],
         },
       ],
