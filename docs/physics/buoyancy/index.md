@@ -26,7 +26,9 @@ import BuoyancyLab from './BuoyancyLab.vue'
 <img src="./buoyancy-derivation.svg" width="200" />
 
 ::: formula
-$F_{\text{浮}} = F_{\text{向上}} - F_{\text{向下}}$
+$$
+F_{\text{浮}} = F_{\text{向上}} - F_{\text{向下}}
+$$
 :::
 
 这说明浮力本质上是液体对物体各个方向压力的**合力**。
@@ -39,7 +41,9 @@ $F_{\text{浮}} = F_{\text{向上}} - F_{\text{向下}}$
 
 **公式**
 ::: formula
-$F_{\text{浮}} = G_{\text{排}} = m_{\text{排}} g = \rho_{\text{液}} g V_{\text{排}}$
+$$
+F_{\text{浮}} = G_{\text{排}} = m_{\text{排}} g = \rho_{\text{液}} g V_{\text{排}}
+$$
 
 - $F_{\text{浮}}$：浮力
 - $G_{\text{排}}$：排开液体的重力
@@ -67,7 +71,9 @@ $F_{\text{浮}} = G_{\text{排}} = m_{\text{排}} g = \rho_{\text{液}} g V_{\te
 先用弹簧测力计测出物体在空气中的重力 $G$，再测出物体浸在液体中时弹簧测力计的示数 $F$，则浮力为
 
 ::: formula
-$F_{\text{浮}} = G - F$
+$$
+F_{\text{浮}} = G - F
+$$
 :::
 
 这种方法本质上是通过“物体变轻了多少”来间接测量浮力。
@@ -77,7 +83,9 @@ $F_{\text{浮}} = G - F$
 若能测出物体排开液体的重力 $G_{\text{排}}$，则根据阿基米德原理
 
 ::: formula
-$F_{\text{浮}} = G_{\text{排}}$
+$$
+F_{\text{浮}} = G_{\text{排}}
+$$
 :::
 
 这也是验证阿基米德原理的经典实验思路。
@@ -119,7 +127,9 @@ $F_{\text{浮}} = G_{\text{排}}$
 根据阿基米德原理
 
 ::: formula
-$F_{\text{浮}} = \rho_{\text{液}} g V_{\text{排}}$
+$$
+F_{\text{浮}} = \rho_{\text{液}} g V_{\text{排}}
+$$
 :::
 
 可知浮力大小与下面几个因素有关：
@@ -161,13 +171,17 @@ $F_{\text{浮}} = \rho_{\text{液}} g V_{\text{排}}$
 根据阿基米德原理：
 
 ::: formula
-$F_{\text{浮}} = \rho g V_{\text{排}}$
+$$
+F_{\text{浮}} = \rho g V_{\text{排}}
+$$
 :::
 
 我们通过弹簧测力计读数的变化来感知浮力：
 
 ::: formula
-$F = G_{\text{物}} - F_{\text{浮}}$
+$$
+F = G_{\text{物}} - F_{\text{浮}}
+$$
 :::
 
 $$

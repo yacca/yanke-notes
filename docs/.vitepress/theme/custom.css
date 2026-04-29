@@ -6,6 +6,17 @@
   --vp-c-brand-3: #8a91ff;
 }
 
+.custom-block.no-title .custom-block-title {
+  display: none;
+}
+
+.dark .vp-doc img {
+  filter: invert(1) hue-rotate(180deg) opacity(0.8);
+  transition:
+    filter 0.3s ease,
+    opacity 0.3s ease;
+}
+
 .formula-card {
   margin: 16px 0;
   padding: 8px 16px;
@@ -15,4 +26,158 @@
   border-left: 4px solid var(--vp-c-brand-1);
   transition: border-color 0.25s;
   overflow-x: auto; /* 防止长公式溢出 */
+}
+
+.content-card {
+  margin: 20px 0;
+  padding: 18px;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 16px;
+  background: var(--vp-c-bg-soft);
+}
+
+.content-card > :first-child {
+  margin-top: 0;
+}
+
+.content-card > :last-child {
+  margin-bottom: 0;
+}
+
+.content-card__title {
+  margin: 0 0 8px;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.layout-grid {
+  display: grid;
+  gap: 16px;
+  margin: 24px 0 32px;
+  grid-template-columns: 1fr;
+}
+
+.layout-grid--card {
+  align-items: center;
+}
+
+.layout-grid--2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.layout-grid--3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.layout-grid--sidebar-left {
+  grid-template-columns: minmax(180px, 0.8fr) minmax(0, 1.2fr);
+}
+
+.layout-grid--sidebar-right {
+  grid-template-columns: minmax(0, 1.2fr) minmax(180px, 0.8fr);
+}
+
+.grid-item {
+  min-width: 0;
+}
+
+.layout-grid > .content-card,
+.grid-item > .content-card {
+  margin: 0;
+  height: 100%;
+}
+
+.energy-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(220px, 0.7fr);
+  gap: 24px;
+  align-items: center;
+  margin: 20px 0 28px;
+  padding: 24px;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 20px;
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(100, 108, 255, 0.14),
+      transparent 32%
+    ),
+    linear-gradient(135deg, var(--vp-c-bg-soft), rgba(100, 108, 255, 0.06));
+}
+
+.energy-hero__copy h2 {
+  margin: 6px 0 12px;
+  font-size: 1.9rem;
+  line-height: 1.2;
+}
+
+.energy-eyebrow {
+  margin: 0;
+  color: var(--vp-c-brand-1);
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.energy-hero__copy p:last-child {
+  margin-bottom: 0;
+}
+
+.energy-hero__art,
+.content-card img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.energy-hero__art {
+  justify-self: center;
+  max-height: 240px;
+}
+
+.energy-flow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin: 14px 0;
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-border);
+}
+
+.energy-flow span {
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(100, 108, 255, 0.08);
+}
+
+.energy-flow span:nth-child(4n + 3) {
+  padding: 0;
+  background: transparent;
+  font-weight: 700;
+}
+
+.energy-flow--wide {
+  justify-content: center;
+}
+
+@media (max-width: 960px) {
+  .layout-grid--2,
+  .layout-grid--3,
+  .layout-grid--sidebar-left,
+  .layout-grid--sidebar-right {
+    grid-template-columns: 1fr;
+  }
+
+  .energy-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .energy-hero__copy h2 {
+    font-size: 1.55rem;
+  }
 }

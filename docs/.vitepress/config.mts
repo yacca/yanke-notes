@@ -1,12 +1,47 @@
 import { defineConfig } from 'vitepress'
 import container from 'markdown-it-container'
 
-// https://vitepress.dev/reference/site-config
+function parseContainerInfo(info: string, name: string) {
+  const raw = info.trim().slice(name.length).trim()
+  const attrs: Record<string, string> = {}
+  const stripped = raw.replace(
+    /(\w+)="([^"]*)"/g,
+    (_, key: string, value: string) => {
+      attrs[key] = value
+      return ' '
+    },
+  )
+  const modifiers = stripped.split(/\s+/).filter(Boolean)
+
+  return { attrs, modifiers }
+}
+
+function getGridClasses(modifiers: string[]) {
+  const variantMap: Record<string, string> = {
+    '2': 'layout-grid--2',
+    '3': 'layout-grid--3',
+    'sidebar-left': 'layout-grid--sidebar-left',
+    'sidebar-right': 'layout-grid--sidebar-right',
+    card: 'layout-grid--card',
+  }
+
+  const variantClasses = modifiers
+    .map((modifier) => variantMap[modifier] ?? '')
+    .filter(Boolean)
+
+  const classes = ['layout-grid', ...variantClasses]
+
+  if (modifiers.includes('card')) {
+    classes.push('content-card')
+  }
+
+  return classes
+}
+
 export default defineConfig({
   title: 'Yanke Notes',
   description: 'Yanke 的学习笔记',
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
       {
@@ -24,6 +59,7 @@ export default defineConfig({
         items: [
           { text: '压强', link: '/physics/pressure/' },
           { text: '浮力', link: '/physics/buoyancy/' },
+          { text: '功和机械能', link: '/physics/work-and-energy/' },
           { text: '透镜', link: '/physics/lens/' },
         ],
       },
@@ -48,6 +84,7 @@ export default defineConfig({
           items: [
             { text: '压强', link: '/physics/pressure/' },
             { text: '浮力', link: '/physics/buoyancy/' },
+            { text: '功和机械能', link: '/physics/work-and-energy/' },
             { text: '透镜', link: '/physics/lens/' },
           ],
         },
@@ -55,6 +92,7 @@ export default defineConfig({
           text: 'PhET 仿真',
           items: [
             { text: '浮力', link: '/physics/buoyancy/phet-buoyancy' },
+            { text: '能量滑板公园', link: '/physics/work-and-energy/phet-energy' },
             { text: '几何光学', link: '/physics/lens/phet-geometric-optics' },
           ],
         },
@@ -76,11 +114,51 @@ export default defineConfig({
     config: (md) => {
       md.use(container, 'formula', {
         render(tokens, idx) {
+          return tokens[idx].nesting === 1
+            ? `<div class="formula-card">\n`
+            : `</div>\n`
+        },
+      })
+
+      md.use(container, 'card', {
+        render(tokens, idx) {
           if (tokens[idx].nesting === 1) {
-            // 开标签：渲染一个带特定类名的 div
-            return `<div class="formula-card">\n`
+            const { attrs } = parseContainerInfo(tokens[idx].info, 'card')
+            const classes = ['content-card', attrs.class]
+              .filter(Boolean)
+              .join(' ')
+            const title = attrs.title
+              ? `<div class="content-card__title">${md.utils.escapeHtml(attrs.title)}</div>\n`
+              : ''
+
+            return `<div class="${classes}">\n${title}`
           } else {
-            // 闭标签
+            return `</div>\n`
+          }
+        },
+      })
+
+      md.use(container, 'grid', {
+        render(tokens, idx) {
+          if (tokens[idx].nesting === 1) {
+            const { attrs, modifiers } = parseContainerInfo(tokens[idx].info, 'grid')
+            const classes = [...getGridClasses(modifiers), attrs.class]
+              .filter(Boolean)
+              .join(' ')
+            return `<div class="${classes}">\n`
+          } else {
+            return `</div>\n`
+          }
+        },
+      })
+
+      md.use(container, 'grid-item', {
+        render(tokens, idx) {
+          if (tokens[idx].nesting === 1) {
+            const { attrs } = parseContainerInfo(tokens[idx].info, 'grid-item')
+            const classes = ['grid-item', attrs.class].filter(Boolean).join(' ')
+            return `<div class="${classes}">\n`
+          } else {
             return `</div>\n`
           }
         },

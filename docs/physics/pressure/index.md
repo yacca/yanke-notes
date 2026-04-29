@@ -87,7 +87,9 @@ import Newton3rdLaw from '../components/Newton3rdLaw.vue'
 
 **公式**
 ::: formula
-$p = \cfrac{F}{S}$
+$$
+p = \cfrac{F}{S}
+$$
 
 - $p$：压强
 - $F$：压力
@@ -150,7 +152,9 @@ $p = \cfrac{F}{S}$
 
 **公式**
 ::: formula
-$p = \rho g h$
+$$
+p = \rho g h
+$$
 
 - $p$：液体压强
 - $\rho$：液体密度
@@ -166,16 +170,24 @@ $p = \rho g h$
 
 在上图中，设液柱的高度为 $h$、平面的面积为 $S$，则这个平面上方的液柱对平面的压力
 ::: formula
-$F=G=mg=\rho Vg=\rho Shg$
+$$
+F=G=mg=\rho Vg=\rho Shg
+$$
 :::
 平面受到的压强
 ::: formula
-$p=\cfrac{F}{S}=\rho gh$
+$$
+p=\cfrac{F}{S}=\rho gh
+$$
 :::
 
-::: info **帕斯卡裂桶实验**
-<div style="display: flex; align-items: center; gap: 20px;">
-  <div style="flex: 2;">
+:::: grid sidebar-right card
+::: grid-item
+<p align="center">
+
+**帕斯卡裂桶实验**
+
+</p>
 
 **实验的意义**
 
@@ -184,14 +196,12 @@ $p=\cfrac{F}{S}=\rho gh$
 
 **帕斯卡定律**
 > 密闭液体上的压强能够大小不变地由液体向各个方向传递。
-
-  </div>
-  <div style="flex: 1;">
-    <img src="./pascal-barrel.svg" width="120" />
-  </div>
-</div>
-
 :::
+
+::: grid-item
+<img src="./pascal-barrel.svg" width="120" />
+:::
+::::
 
 ### 连通器
 
@@ -214,18 +224,21 @@ $p=\cfrac{F}{S}=\rho gh$
 - 透明软管找平 [【连通器原理《银河补习班》-认识连通器原理应用的最好的视频】](https://www.bilibili.com/video/BV1yF411T7NL/?share_source=copy_web&vd_source=407aff227f9af6245191f8fbf47f5385)
 - 船闸
 
-<div style="display: flex; align-items: center; gap: 20px;">
-  <div style="flex: 1;">
-    <img src="./kettle.svg" width="200" />
-  </div>
-  <div style="flex: 1;">
-    <img src="./u-water-trap.svg" width="200">
-  </div>
-</div>
+:::: grid 2
+::: grid-item
+<img src="./kettle.svg" width="200" />
+:::
+
+::: grid-item
+<img src="./u-water-trap.svg" width="200">
+:::
+::::
 
 **船闸工作原理**
 
+::: card
 <img src="./ship-lock.svg" width="100%" />
+:::
 
 ## 大气压强
 
