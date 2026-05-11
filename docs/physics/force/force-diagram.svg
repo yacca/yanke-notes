@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="77.290733mm"
+   height="33.199615mm"
+   viewBox="0 0 77.290733 33.199615"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="ConcaveTriangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path7" />
+    </marker>
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-32.279169,-130.4396)">
+    <line
+       x1="32.33712"
+       y1="163.58125"
+       x2="109.51195"
+       y2="163.58125"
+       class="stroke-main"
+       stroke-width="0.115904"
+       id="line1"
+       style="fill:none;stroke:#2c292a;stroke-linecap:round;stroke-linejoin:round" />
+    <rect
+       x="36.355553"
+       y="149.08565"
+       width="20.664173"
+       height="10.332087"
+       rx="0.75142449"
+       class="fill-cart"
+       stroke-width="0.225427"
+       id="rect2"
+       style="fill:#f7d098;stroke:#2c292a;stroke-linejoin:round" />
+    <circle
+       cx="41.051956"
+       cy="160.35701"
+       r="3.005698"
+       class="fill-cart"
+       stroke-width="0.225427"
+       id="circle3"
+       style="fill:#f7d098;stroke:#2c292a;stroke-linejoin:round" />
+    <circle
+       cx="52.323322"
+       cy="160.35701"
+       r="3.005698"
+       class="fill-cart"
+       stroke-width="0.225427"
+       id="circle4"
+       style="fill:#f7d098;stroke:#2c292a;stroke-linejoin:round" />
+    <circle
+       cx="41.051956"
+       cy="160.35701"
+       r="0.56356841"
+       class="fill-main"
+       id="circle5"
+       style="fill:#2c292a;stroke-width:0.187856" />
+    <circle
+       cx="52.323322"
+       cy="160.35701"
+       r="0.56356841"
+       class="fill-main"
+       id="circle6"
+       style="fill:#2c292a;stroke-width:0.187856" />
+    <line
+       x1="56.932316"
+       y1="149.09682"
+       x2="88.098213"
+       y2="144.74825"
+       class="stroke-main"
+       stroke-width="0.265359"
+       stroke-dasharray="4, 2"
+       id="line6"
+       style="fill:none;stroke:#2c292a;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none" />
+    <circle
+       cx="97.562851"
+       cy="135.36084"
+       r="4.7624998"
+       class="fill-cart"
+       stroke-width="0.3175"
+       id="circle7"
+       style="fill:#f7d098;stroke:#2c292a;stroke-linejoin:round" />
+    <circle
+       cx="95.71077"
+       cy="134.56708"
+       r="0.52916664"
+       class="fill-main"
+       id="circle8"
+       style="fill:#2c292a;stroke-width:0.264583" />
+    <circle
+       cx="99.41494"
+       cy="134.56708"
+       r="0.52916664"
+       class="fill-main"
+       id="circle9"
+       style="fill:#2c292a;stroke-width:0.264583" />
+    <path
+       d="m 95.710773,137.21292 q 1.852083,2.11666 3.704166,0"
+       class="stroke-main"
+       stroke-width="0.211667"
+       fill="none"
+       id="path9"
+       style="fill:none;stroke:#2c292a;stroke-linecap:round;stroke-linejoin:round" />
+    <line
+       x1="97.562851"
+       y1="140.12334"
+       x2="97.562851"
+       y2="155.20459"
+       class="stroke-main"
+       stroke-width="0.529167"
+       id="line9"
+       style="fill:none;stroke:#2c292a;stroke-linecap:round;stroke-linejoin:round" />
+    <line
+       x1="97.474258"
+       y1="143.31123"
+       x2="88.284828"
+       y2="145.04033"
+       class="stroke-main"
+       stroke-width="0.396875"
+       id="line10"
+       style="fill:none;stroke:#2c292a;stroke-linecap:round;stroke-linejoin:round" />
+    <line
+       x1="97.276749"
+       y1="141.21759"
+       x2="88.122368"
+       y2="144.07832"
+       class="stroke-main"
+       stroke-width="0.429112"
+       id="line11"
+       style="fill:none;stroke:#2c292a;stroke-linecap:round;stroke-linejoin:round" />
+    <circle
+       cx="88.196243"
+       cy="144.63025"
+       r="0.79374999"
+       class="fill-main"
+       id="circle11"
+       style="fill:#2c292a;stroke-width:0.264583" />
+    <line
+       x1="97.562851"
+       y1="155.20459"
+       x2="92.271187"
+       y2="163.14209"
+       class="stroke-main"
+       stroke-width="0.396875"
+       id="line12"
+       style="fill:none;stroke:#2c292a;stroke-linecap:round;stroke-linejoin:round" />
+    <line
+       x1="97.562851"
+       y1="155.20459"
+       x2="102.85452"
+       y2="163.14209"
+       class="stroke-main"
+       stroke-width="0.396875"
+       id="line13"
+       style="fill:none;stroke:#2c292a;stroke-linecap:round;stroke-linejoin:round" />
+    <line
+       x1="90.948273"
+       y1="163.14209"
+       x2="93.594101"
+       y2="163.14209"
+       class="stroke-main"
+       stroke-width="0.396875"
+       stroke-linecap="round"
+       id="line14"
+       style="fill:none;stroke:#2c292a;stroke-linecap:round;stroke-linejoin:round" />
+    <line
+       x1="101.5316"
+       y1="163.14209"
+       x2="104.17744"
+       y2="163.14209"
+       class="stroke-main"
+       stroke-width="0.396875"
+       stroke-linecap="round"
+       id="line15"
+       style="fill:none;stroke:#2c292a;stroke-linecap:round;stroke-linejoin:round" />
+    <line
+       x1="57.48568"
+       y1="149.00136"
+       x2="71.334846"
+       y2="147.06276"
+       class="stroke-force"
+       stroke-width="2.22149"
+       id="line16"
+       style="fill:none;stroke:#ec148d;stroke-width:0.372351;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;marker-end:url(#ConcaveTriangle)" />
+    <text
+       x="71.275513"
+       y="145.11623"
+       class="label-force"
+       text-anchor="middle"
+       id="text17"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#ec148d;stroke-width:0.264583">F</text>
+    <line
+       x1="54.344547"
+       y1="143.32047"
+       x2="56.618866"
+       y2="148.56602"
+       class="stroke-main"
+       stroke-width="0.142935"
+       stroke-dasharray="2, 2"
+       id="line17"
+       style="fill:none;stroke:#2c292a;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none" />
+    <line
+       x1="66.443459"
+       y1="147.95218"
+       x2="64.405327"
+       y2="153.29395"
+       class="stroke-main"
+       stroke-width="0.142935"
+       stroke-dasharray="2, 2"
+       id="line17-6"
+       style="fill:none;stroke:#2c292a;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none" />
+    <text
+       x="50.232475"
+       y="141.3988"
+       class="label"
+       text-anchor="middle"
+       id="text18"
+       style="font-size:3.70417px;font-family:sans-serif;text-anchor:middle;fill:#2c292a;stroke-width:0.264583"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         id="tspan22">作用点</tspan></text>
+    <text
+       x="60.512188"
+       y="156.4789"
+       class="label"
+       text-anchor="start"
+       id="text19"
+       style="font-size:3.70417px;font-family:sans-serif;text-anchor:start;fill:#2c292a;stroke-width:0.264583"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         id="tspan21">方向</tspan></text>
+    <ellipse
+       style="fill:#ec148d;fill-opacity:1;stroke:none;stroke-width:0.58764;stroke-dasharray:none"
+       id="path21"
+       cx="56.948414"
+       cy="149.12996"
+       rx="0.65095896"
+       ry="0.69295633" />
+  </g>
+</svg>
