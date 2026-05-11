@@ -12,5 +12,8 @@ hero:
       link: /math/rolling-square
     - theme: alt
       text: 物理
-      link: /physics/pressure
+      link: /physics/mechanical-motion
+    - theme: alt
+      text: 计算机
+      link: /computer/command-line-tools
 ---

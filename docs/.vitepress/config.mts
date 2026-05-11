@@ -38,65 +38,57 @@ function getGridClasses(modifiers: string[]) {
   return classes
 }
 
+const physicsItems = [
+  {
+    text: '初中物理',
+    items: [
+      { text: '机械运动', link: '/physics/mechanical-motion/' },
+      { text: '质量与密度', link: '/physics/mass-and-density/' },
+      { text: '压强', link: '/physics/pressure/' },
+      { text: '浮力', link: '/physics/buoyancy/' },
+      { text: '功和机械能', link: '/physics/work-and-energy/' },
+      { text: '透镜', link: '/physics/lens/' },
+    ],
+  },
+  {
+    text: 'PhET 仿真',
+    items: [
+      { text: '密度', link: '/physics/mass-and-density/phet-density' },
+      { text: '浮力', link: '/physics/buoyancy/phet-buoyancy' },
+      { text: '能量滑板公园', link: '/physics/work-and-energy/phet-energy' },
+      { text: '几何光学', link: '/physics/lens/phet-geometric-optics' },
+    ],
+  },
+]
+
+const mathItems = [
+  { text: '滚动的正方形', link: '/math/rolling-square' },
+  {
+    text: '2025北京朝阳八年级期末26题',
+    link: '/math/grade8-2025S2-final-chaoyang-q26',
+  },
+]
+
+const computerItems = [
+  { text: '命令行工具', link: '/computer/command-line-tools/' },
+]
+
 export default defineConfig({
+  lang: 'zh-CN',
   title: 'Yanke Notes',
   description: 'Yanke 的学习笔记',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      {
-        text: '数学',
-        items: [
-          { text: '滚动的正方形', link: '/math/rolling-square' },
-          {
-            text: '2025北京朝阳八年级期末26题',
-            link: '/math/grade8-2025S2-final-chaoyang-q26',
-          },
-        ],
-      },
-      {
-        text: '物理',
-        items: [
-          { text: '压强', link: '/physics/pressure/' },
-          { text: '浮力', link: '/physics/buoyancy/' },
-          { text: '功和机械能', link: '/physics/work-and-energy/' },
-          { text: '透镜', link: '/physics/lens/' },
-        ],
-      },
+      { text: '数学', items: mathItems },
+      { text: '物理', items: physicsItems },
+      { text: '计算机', items: computerItems },
     ],
 
     sidebar: {
-      '/math/': [
-        {
-          text: '数学',
-          items: [
-            { text: '滚动的正方形', link: '/math/rolling-square' },
-            {
-              text: '2025北京朝阳八年级期末26题',
-              link: '/math/grade8-2025S2-final-chaoyang-q26',
-            },
-          ],
-        },
-      ],
-      '/physics/': [
-        {
-          text: '初中物理',
-          items: [
-            { text: '压强', link: '/physics/pressure/' },
-            { text: '浮力', link: '/physics/buoyancy/' },
-            { text: '功和机械能', link: '/physics/work-and-energy/' },
-            { text: '透镜', link: '/physics/lens/' },
-          ],
-        },
-        {
-          text: 'PhET 仿真',
-          items: [
-            { text: '浮力', link: '/physics/buoyancy/phet-buoyancy' },
-            { text: '能量滑板公园', link: '/physics/work-and-energy/phet-energy' },
-            { text: '几何光学', link: '/physics/lens/phet-geometric-optics' },
-          ],
-        },
-      ],
+      '/math/': [{ text: '数学', items: mathItems }],
+      '/physics/': physicsItems,
+      '/computer/': [{ text: '计算机', items: computerItems }],
     },
 
     outline: {
@@ -141,7 +133,10 @@ export default defineConfig({
       md.use(container, 'grid', {
         render(tokens, idx) {
           if (tokens[idx].nesting === 1) {
-            const { attrs, modifiers } = parseContainerInfo(tokens[idx].info, 'grid')
+            const { attrs, modifiers } = parseContainerInfo(
+              tokens[idx].info,
+              'grid',
+            )
             const classes = [...getGridClasses(modifiers), attrs.class]
               .filter(Boolean)
               .join(' ')
