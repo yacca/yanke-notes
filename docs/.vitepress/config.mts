@@ -20,6 +20,7 @@ function getGridClasses(modifiers: string[]) {
   const variantMap: Record<string, string> = {
     '2': 'layout-grid--2',
     '3': 'layout-grid--3',
+    '4': 'layout-grid--4',
     'sidebar-left': 'layout-grid--sidebar-left',
     'sidebar-right': 'layout-grid--sidebar-right',
     card: 'layout-grid--card',
@@ -45,6 +46,7 @@ const physicsItems = [
       { text: '机械运动', link: '/physics/mechanical-motion/' },
       { text: '质量与密度', link: '/physics/mass-and-density/' },
       { text: '力', link: '/physics/force/' },
+      { text: '运动和力', link: '/physics/motion-and-force/' },
       { text: '压强', link: '/physics/pressure/' },
       { text: '浮力', link: '/physics/buoyancy/' },
       { text: '功和机械能', link: '/physics/work-and-energy/' },

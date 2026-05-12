@@ -69,6 +69,10 @@
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.layout-grid--4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 .layout-grid--sidebar-left {
   grid-template-columns: minmax(180px, 0.8fr) minmax(0, 1.2fr);
 }
@@ -168,6 +172,7 @@
 @media (max-width: 960px) {
   .layout-grid--2,
   .layout-grid--3,
+  .layout-grid--4,
   .layout-grid--sidebar-left,
   .layout-grid--sidebar-right {
     grid-template-columns: 1fr;
