@@ -253,9 +253,10 @@ $$
 
 ### 来自 PhET 的在线仿真实验
 
-[密度仿真实验](./phet-density)
+- [密度仿真实验](./phet-density) — 探究质量、体积与密度的关系
+- [质量和弹簧仿真实验](./phet-masses-and-springs) — 通过弹簧伸长量感受质量与重力的关系
 
-访问 [PhET 网站](https://phet.colorado.edu/) 查看所有在线仿真实验
+访问 [PhET 网站](https://phet.colorado.edu/zh_CN/) 查看所有在线仿真实验
 
 ## 速记
 

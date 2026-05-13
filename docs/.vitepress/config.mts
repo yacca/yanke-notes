@@ -50,6 +50,7 @@ const physicsItems = [
       { text: '压强', link: '/physics/pressure/' },
       { text: '浮力', link: '/physics/buoyancy/' },
       { text: '功和机械能', link: '/physics/work-and-energy/' },
+      { text: '简单机械', link: '/physics/simple-machines/' },
       { text: '透镜', link: '/physics/lens/' },
     ],
   },
@@ -57,9 +58,14 @@ const physicsItems = [
     text: 'PhET 仿真',
     items: [
       { text: '密度', link: '/physics/mass-and-density/phet-density' },
+      { text: '质量和弹簧', link: '/physics/mass-and-density/phet-density' },
       { text: '力和运动', link: '/physics/force/phet-forces-and-motion' },
       { text: '浮力', link: '/physics/buoyancy/phet-buoyancy' },
       { text: '能量滑板公园', link: '/physics/work-and-energy/phet-energy' },
+      {
+        text: '平衡探究实验',
+        link: '/physics/simple-machines/phet-balancing-act',
+      },
       { text: '几何光学', link: '/physics/lens/phet-geometric-optics' },
     ],
   },

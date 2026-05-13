@@ -16,7 +16,7 @@ import Convex from './Convex.vue'
 
 [几何光学](./phet-geometric-optics.md)
 
-访问 [PhET 网站](https://phet.colorado.edu/) 查看所有在线仿真实验
+访问 [PhET 网站](https://phet.colorado.edu/zh_CN/) 查看所有在线仿真实验
 
 ---
 

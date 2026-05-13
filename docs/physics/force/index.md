@@ -229,7 +229,7 @@ $$
 
 [力和运动](./phet-forces-and-motion)
 
-访问 [PhET 网站](https://phet.colorado.edu/) 查看所有在线仿真实验
+访问 [PhET 网站](https://phet.colorado.edu/zh_CN/) 查看所有在线仿真实验
 
 ## 速记
 

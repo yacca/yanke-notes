@@ -280,9 +280,10 @@ $$
 
 ### 来自 PhET 的在线仿真实验
 
-[能量滑板公园](./phet-energy)
+- [能量滑板公园](./phet-energy) — 观察动能与势能的相互转化
+- [质量和弹簧仿真实验](../mass-and-density/phet-masses-and-springs) — 观察弹簧振子中的动能与势能转化
 
-访问 [PhET 网站](https://phet.colorado.edu/) 查看所有在线仿真实验
+访问 [PhET 网站](https://phet.colorado.edu/zh_CN/) 查看所有在线仿真实验
 
 ## 速记
 
