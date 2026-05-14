@@ -51,6 +51,7 @@ const physicsItems = [
       { text: '浮力', link: '/physics/buoyancy/' },
       { text: '功和机械能', link: '/physics/work-and-energy/' },
       { text: '简单机械', link: '/physics/simple-machines/' },
+      { text: '简单电路', link: '/physics/simple-circuits/' },
       { text: '透镜', link: '/physics/lens/' },
     ],
   },
@@ -65,6 +66,18 @@ const physicsItems = [
       {
         text: '平衡探究实验',
         link: '/physics/simple-machines/phet-balancing-act',
+      },
+      {
+        text: '气球和静电',
+        link: '/physics/simple-circuits/phet-balloons-static',
+      },
+      {
+        text: '静电电压',
+        link: '/physics/simple-circuits/phet-john-travoltage',
+      },
+      {
+        text: '电路组件实验',
+        link: '/physics/simple-circuits/phet-circuit-kit',
       },
       { text: '几何光学', link: '/physics/lens/phet-geometric-optics' },
     ],
