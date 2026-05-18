@@ -55,6 +55,7 @@ const physicsItems = [
       { text: '欧姆定律', link: '/physics/ohms-law/' },
       { text: '电流做功', link: '/physics/electrical-work/' },
       { text: '生活用电', link: '/physics/household-electricity/' },
+      { text: '电与磁', link: '/physics/electricity-and-magnetism/' },
       { text: '透镜', link: '/physics/lens/' },
     ],
   },
@@ -89,6 +90,14 @@ const physicsItems = [
       {
         text: '部分电路欧姆定律',
         link: '/physics/ohms-law/phet-ohms-law',
+      },
+      {
+        text: '磁铁与电磁铁',
+        link: '/physics/electricity-and-magnetism/phet-magnets-and-electromagnets',
+      },
+      {
+        text: '发电机',
+        link: '/physics/electricity-and-magnetism/phet-generator',
       },
       { text: '几何光学', link: '/physics/lens/phet-geometric-optics' },
     ],
