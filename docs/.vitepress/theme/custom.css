@@ -17,6 +17,12 @@
     opacity 0.3s ease;
 }
 
+.dark .vp-doc img.no-invert {
+  filter: none;
+  background: #fff;
+  border-radius: 4px;
+}
+
 .formula-card {
   margin: 16px 0;
   padding: 8px 16px;

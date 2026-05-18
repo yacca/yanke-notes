@@ -56,6 +56,7 @@ const physicsItems = [
       { text: '电流做功', link: '/physics/electrical-work/' },
       { text: '生活用电', link: '/physics/household-electricity/' },
       { text: '电与磁', link: '/physics/electricity-and-magnetism/' },
+      { text: '电磁波及其应用', link: '/physics/electromagnetic-waves/' },
       { text: '透镜', link: '/physics/lens/' },
     ],
   },
