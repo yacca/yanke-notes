@@ -183,11 +183,11 @@ $$
 
 :::: grid sidebar-right card
 ::: grid-item
-<p align="center">
+<div align="center">
 
 **帕斯卡裂桶实验**
 
-</p>
+</div>
 
 **实验的意义**
 

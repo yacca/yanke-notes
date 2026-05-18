@@ -53,6 +53,7 @@ const physicsItems = [
       { text: '简单机械', link: '/physics/simple-machines/' },
       { text: '简单电路', link: '/physics/simple-circuits/' },
       { text: '欧姆定律', link: '/physics/ohms-law/' },
+      { text: '电流做功', link: '/physics/electrical-work/' },
       { text: '透镜', link: '/physics/lens/' },
     ],
   },
