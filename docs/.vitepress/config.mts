@@ -54,6 +54,7 @@ const physicsItems = [
       { text: '简单电路', link: '/physics/simple-circuits/' },
       { text: '欧姆定律', link: '/physics/ohms-law/' },
       { text: '电流做功', link: '/physics/electrical-work/' },
+      { text: '生活用电', link: '/physics/household-electricity/' },
       { text: '透镜', link: '/physics/lens/' },
     ],
   },
