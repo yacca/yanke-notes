@@ -41,7 +41,7 @@ function getGridClasses(modifiers: string[]) {
 
 const physicsItems = [
   {
-    text: '初中物理',
+    text: '力学',
     items: [
       { text: '机械运动', link: '/physics/mechanical-motion/' },
       { text: '质量与密度', link: '/physics/mass-and-density/' },
@@ -51,57 +51,26 @@ const physicsItems = [
       { text: '浮力', link: '/physics/buoyancy/' },
       { text: '功和机械能', link: '/physics/work-and-energy/' },
       { text: '简单机械', link: '/physics/simple-machines/' },
+    ],
+  },
+  {
+    text: '电学',
+    items: [
       { text: '简单电路', link: '/physics/simple-circuits/' },
       { text: '欧姆定律', link: '/physics/ohms-law/' },
       { text: '电流做功', link: '/physics/electrical-work/' },
       { text: '生活用电', link: '/physics/household-electricity/' },
       { text: '电与磁', link: '/physics/electricity-and-magnetism/' },
       { text: '电磁波及其应用', link: '/physics/electromagnetic-waves/' },
-      { text: '透镜', link: '/physics/lens/' },
     ],
   },
   {
-    text: 'PhET 仿真',
-    items: [
-      { text: '密度', link: '/physics/mass-and-density/phet-density' },
-      { text: '质量和弹簧', link: '/physics/mass-and-density/phet-density' },
-      { text: '力和运动', link: '/physics/force/phet-forces-and-motion' },
-      { text: '浮力', link: '/physics/buoyancy/phet-buoyancy' },
-      { text: '能量滑板公园', link: '/physics/work-and-energy/phet-energy' },
-      {
-        text: '平衡探究实验',
-        link: '/physics/simple-machines/phet-balancing-act',
-      },
-      {
-        text: '气球和静电',
-        link: '/physics/simple-circuits/phet-balloons-static',
-      },
-      {
-        text: '静电电压',
-        link: '/physics/simple-circuits/phet-john-travoltage',
-      },
-      {
-        text: '电路组件实验：直流',
-        link: '/physics/simple-circuits/phet-circuit-kit',
-      },
-      {
-        text: '电线的电阻',
-        link: '/physics/ohms-law/phet-resistance-in-a-wire',
-      },
-      {
-        text: '部分电路欧姆定律',
-        link: '/physics/ohms-law/phet-ohms-law',
-      },
-      {
-        text: '磁铁与电磁铁',
-        link: '/physics/electricity-and-magnetism/phet-magnets-and-electromagnets',
-      },
-      {
-        text: '发电机',
-        link: '/physics/electricity-and-magnetism/phet-generator',
-      },
-      { text: '几何光学', link: '/physics/lens/phet-geometric-optics' },
-    ],
+    text: '热学',
+    items: [{ text: '热现象', link: '/physics/thermal-phenomena/' }],
+  },
+  {
+    text: '光学',
+    items: [{ text: '透镜', link: '/physics/lens/' }],
   },
 ]
 
@@ -125,13 +94,30 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: '数学', items: mathItems },
-      { text: '物理', items: physicsItems },
+      {
+        text: '物理',
+        items: [
+          {
+            text: '初中物理',
+            items: [
+              { text: '力学', link: '/physics/mechanical-motion/' },
+              { text: '电学', link: '/physics/simple-circuits/' },
+              { text: '热学', link: '/physics/thermal-phenomena/' },
+              { text: '光学', link: '/physics/lens/' },
+            ],
+          },
+          { text: 'PhET 仿真', link: '/physics/phet' },
+        ],
+      },
       { text: '计算机', items: computerItems },
     ],
 
     sidebar: {
       '/math/': [{ text: '数学', items: mathItems }],
-      '/physics/': physicsItems,
+      '/physics/': [
+        { text: '初中物理', items: physicsItems },
+        { text: 'PhET 仿真', link: '/physics/phet' },
+      ],
       '/computer/': [{ text: '计算机', items: computerItems }],
     },
 
