@@ -66,7 +66,10 @@ const physicsItems = [
   },
   {
     text: '热学',
-    items: [{ text: '热现象', link: '/physics/thermal-phenomena/' }],
+    items: [
+        { text: '热现象', link: '/physics/thermal-phenomena/' },
+        { text: '内能及其利用', link: '/physics/internal-energy/' },
+      ],
   },
   {
     text: '光学',

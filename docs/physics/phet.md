@@ -24,6 +24,10 @@
 ## 热学
 
 - [物态变化](/physics/thermal-phenomena/phet-states-of-matter) — 观察分子运动与物态变化过程
+- [气体扩散](/physics/internal-energy/phet-diffusion) — 观察气体分子的扩散运动
+- [原子的相互作用](/physics/internal-energy/phet-atomic-interactions) — 观察原子间的引力和斥力，理解分子间作用力的本质
+- [摩擦生热](/physics/internal-energy/phet-friction) — 观察摩擦力做功使物体内能增加
+- [能量的形式和转换](/physics/internal-energy/phet-energy-forms) — 探究不同形式能量的相互转化
 
 ## 光学
 
