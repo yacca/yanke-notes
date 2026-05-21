@@ -73,7 +73,10 @@ const physicsItems = [
   },
   {
     text: '光学',
-    items: [{ text: '透镜', link: '/physics/lens/' }],
+    items: [
+        { text: '光现象', link: '/physics/light-phenomena/' },
+        { text: '透镜', link: '/physics/lens/' },
+      ],
   },
 ]
 
@@ -106,7 +109,7 @@ export default defineConfig({
               { text: '力学', link: '/physics/mechanical-motion/' },
               { text: '电学', link: '/physics/simple-circuits/' },
               { text: '热学', link: '/physics/thermal-phenomena/' },
-              { text: '光学', link: '/physics/lens/' },
+              { text: '光学', link: '/physics/light-phenomena/' },
             ],
           },
           { text: 'PhET 仿真', link: '/physics/phet' },

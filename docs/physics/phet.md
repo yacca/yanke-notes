@@ -31,4 +31,6 @@
 
 ## 光学
 
+- [光的折射](/physics/light-phenomena/phet-bending-light) — 探究光从空气射入水或玻璃中的折射与反射现象
+- [光的混合](/physics/light-phenomena/phet-color-vision) — 通过调节红、绿、蓝三种色光的强度，观察色光混合的效果
 - [几何光学](/physics/lens/phet-geometric-optics) — 探究透镜成像规律与光的传播
