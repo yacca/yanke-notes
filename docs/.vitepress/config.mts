@@ -75,7 +75,7 @@ const physicsItems = [
     text: '光学',
     items: [
         { text: '光现象', link: '/physics/light-phenomena/' },
-        { text: '透镜', link: '/physics/lens/' },
+        { text: '透镜及其应用', link: '/physics/lens/' },
       ],
   },
 ]
