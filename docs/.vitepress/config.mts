@@ -82,6 +82,7 @@ const physicsItems = [
     text: '其他',
     items: [
       { text: '声现象', link: '/physics/sound-phenomena/' },
+      { text: '能源与可持续发展', link: '/physics/energy-and-sustainability/' },
     ],
   },
 ]
