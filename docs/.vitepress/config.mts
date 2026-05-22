@@ -78,6 +78,12 @@ const physicsItems = [
         { text: '透镜及其应用', link: '/physics/lens/' },
       ],
   },
+  {
+    text: '其他',
+    items: [
+      { text: '声现象', link: '/physics/sound-phenomena/' },
+    ],
+  },
 ]
 
 const mathItems = [
@@ -110,6 +116,7 @@ export default defineConfig({
               { text: '电学', link: '/physics/simple-circuits/' },
               { text: '热学', link: '/physics/thermal-phenomena/' },
               { text: '光学', link: '/physics/light-phenomena/' },
+              { text: '其他', link: '/physics/sound-phenomena/' },
             ],
           },
           { text: 'PhET 仿真', link: '/physics/phet' },
