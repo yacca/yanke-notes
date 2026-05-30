@@ -67,22 +67,31 @@ const physicsItems = [
   {
     text: '热学',
     items: [
-        { text: '热现象', link: '/physics/thermal-phenomena/' },
-        { text: '内能及其利用', link: '/physics/internal-energy/' },
-      ],
+      { text: '热现象', link: '/physics/thermal-phenomena/' },
+      { text: '内能及其利用', link: '/physics/internal-energy/' },
+    ],
   },
   {
     text: '光学',
     items: [
-        { text: '光现象', link: '/physics/light-phenomena/' },
-        { text: '透镜及其应用', link: '/physics/lens/' },
-      ],
+      { text: '光现象', link: '/physics/light-phenomena/' },
+      { text: '透镜及其应用', link: '/physics/lens/' },
+    ],
   },
   {
     text: '其他',
     items: [
       { text: '声现象', link: '/physics/sound-phenomena/' },
       { text: '能源与可持续发展', link: '/physics/energy-and-sustainability/' },
+    ],
+  },
+  {
+    text: '中考复习',
+    items: [
+      { text: '知识汇总', link: '/physics/review/knowledge-map' },
+      { text: '公式汇总', link: '/physics/review/formulas' },
+      { text: '解题方法', link: '/physics/review/methods' },
+      { text: '易错点专题', link: '/physics/review/common-mistakes' },
     ],
   },
 ]
@@ -118,6 +127,7 @@ export default defineConfig({
               { text: '热学', link: '/physics/thermal-phenomena/' },
               { text: '光学', link: '/physics/light-phenomena/' },
               { text: '其他', link: '/physics/sound-phenomena/' },
+              { text: '中考复习', link: '/physics/review/knowledge-map' },
             ],
           },
           { text: 'PhET 仿真', link: '/physics/phet' },
