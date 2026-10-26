@@ -34,7 +34,7 @@ const renderApplet = () => {
     showAlgebraInput: props.showAlgebraInput,
     showResetIcon: true,
     enableLabelDrags: false,
-    enableShiftDragZoom: true,
+    enableShiftDragZoom: false,
     enableRightClick: false,
     capturingThreshold: null,
     showToolBarHelp: false,

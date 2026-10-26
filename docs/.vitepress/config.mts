@@ -98,6 +98,7 @@ const physicsItems = [
 
 const mathItems = [
   { text: '滚动的正方形', link: '/math/rolling-square' },
+  { text: '二元均值不等式的几何证明', link: '/math/AM-GM-inequality' },
   {
     text: '2025北京朝阳八年级期末26题',
     link: '/math/grade8-2025S2-final-chaoyang-q26',
