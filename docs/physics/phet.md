@@ -5,7 +5,7 @@
 ## 力学
 
 - [密度](/physics/mass-and-density/phet-density) — 通过质量与体积的测量，理解密度的概念
-- [质量和弹簧](/physics/mass-and-density/phet-density) — 探究弹簧的伸长量与所挂物体质量的关系
+- [质量和弹簧](/physics/mass-and-density/phet-masses-and-springs) — 探究弹簧的伸长量与所挂物体质量的关系
 - [力和运动](/physics/force/phet-forces-and-motion) — 探究力与运动状态变化的关系
 - [浮力](/physics/buoyancy/phet-buoyancy) — 探究浮力大小与排开液体体积的关系
 - [能量滑板公园](/physics/work-and-energy/phet-energy) — 观察动能与势能的相互转化

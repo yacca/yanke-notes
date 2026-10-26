@@ -1,35 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    version="1.1"
-   width="87.34201"
+   width="87.357422"
    height="91.508987"
-   viewBox="0 0 87.342008 91.50899"
+   viewBox="0 0 87.35742 91.50899"
    id="svg790"
-   sodipodi:docname="communicating-vessels.svg"
-   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview1"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="0.2841251"
-     inkscape:cx="42.234917"
-     inkscape:cy="45.754494"
-     inkscape:window-width="1920"
-     inkscape:window-height="1027"
-     inkscape:window-x="0"
-     inkscape:window-y="25"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg790" />
   <defs
      id="defs40">
     <clipPath
@@ -38,20 +16,6 @@
          transform="matrix(1,0,0,-1,-8.50394,745.512)"
          d="M 0,0 H 538.583 V 754.016 H 0 Z"
          id="path1" />
-    </clipPath>
-    <clipPath
-       id="clip_18">
-      <path
-         transform="matrix(1,0,0,-1,-8.50394,745.512)"
-         d="m 284.408,323.429 h 66.427 v 64.15399 h -66.427 z"
-         id="path4" />
-    </clipPath>
-    <clipPath
-       id="clip_19">
-      <path
-         transform="matrix(1,0,0,-1,-8.50394,745.512)"
-         d="m 374.408,311.048 h 99.156 v 90.42503 h -99.156 z"
-         id="path5" />
     </clipPath>
     <g
        id="mask_25_contents">
@@ -172,10 +136,22 @@
   </defs>
   <g
      id="g790"
-     transform="translate(-380.33219,-202.395)">
+     transform="translate(-380.31678,-202.395)">
     <g
        clip-path="url(#clip_1)"
        id="g733">
+      <use
+         data-text="F"
+         xlink:href="#font_48_8"
+         transform="matrix(9.0155,0,0,-9.0155,400.74778,282.8904)"
+         fill="#2c292a"
+         id="use713" />
+      <use
+         data-text="1"
+         xlink:href="#font_49_6"
+         transform="matrix(5.0086,0,0,-5.0086,406.25486,284.6122)"
+         fill="#2c292a"
+         id="use714" />
       <g
          clip-path="url(#clip_50)"
          id="g715">
