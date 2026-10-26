@@ -1,13 +1,13 @@
 {
   "dependencies": {
     "chokidar": "^5.0.0",
-    "fs-extra": "^11.3.4",
+    "fs-extra": "^11.4.1",
     "glob": "^13.0.6"
   },
   "devDependencies": {
     "markdown-it-container": "^4.0.0",
     "markdown-it-mathjax3": "^4",
-    "vitepress": "^2.0.0-alpha.17"
+    "vitepress": "^2.0.0-alpha.21"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
